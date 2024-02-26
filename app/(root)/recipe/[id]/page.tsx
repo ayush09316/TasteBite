@@ -218,7 +218,7 @@ const Page = ({params:{id}}: Params) => {
         <div className="bg-slate-300 rounded-lg p-4 flex flex-col gap-2 items-center">
           <h1 className="text-2xl font-bold">Related Product</h1>
           <div>
-          <Image src='/dinner.jpg' width={100} height={100} alt='recipe' className="w-[25rem] h-[20rem] object-fill rounded-xl" />
+          <Image src='/dinner.webp' width={100} height={100} alt='recipe' className="w-[25rem] h-[20rem] object-fill rounded-xl" />
           </div>
           <button className="bg-main-dark rounded-lg mt-4 w-full py-2  text-white font-semibold">
             Buy Now

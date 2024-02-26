@@ -16,7 +16,7 @@ const RecipeCard = ({ recipe }: { recipe?: recipeProps }) => {
           className="ml-[10px] mt-[11px] absolute"
         />
         <Image
-          src={recipe?.image ? `${recipe?.image}` : "/dinner.jpg"}
+          src={recipe?.image ? `${recipe?.image}` : "/dinner.webp"}
           width={300}
           height={300}
           alt="recipe"
